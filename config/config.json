@@ -1,0 +1,18 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "send-mail-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/sendMail/SendMailWebPart.js",
+          "manifest": "./src/webparts/sendMail/SendMailWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SendMailWebPartStrings": "lib/webparts/sendMail/loc/{locale}.js"
+  }
+}

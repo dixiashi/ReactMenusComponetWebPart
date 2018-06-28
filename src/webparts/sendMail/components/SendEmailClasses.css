@@ -1,0 +1,16 @@
+input, textarea {
+  width: 98%;
+  margin-top: 5px;
+  float: left;
+}
+
+  input[type='radio'] {
+    width: 25px;
+  }
+
+
+#emailTemplate1 {
+  border: 1px solid;
+  padding: 5px;
+  width: 98%;
+}
